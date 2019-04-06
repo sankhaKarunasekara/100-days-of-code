@@ -1,30 +1,21 @@
 # 100 Days Of Code - Log
 
-### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
+### Day 1: April 06, Saturday
+ 
+**Today's Progress**: as kick start picked up Wes Bos's javascript30 course.
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
+**Thoughts:**
 
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
+* I didn't know `<kbd></kbd>` is a tag in HTML. It's used to define keyboard inputs. The tag is used when it is needed to display text that the user should enter into their keyboard (for any number of reasons).
 
-**Link to work:** [Calculator App](http://www.example.com)
+*`transform` in css used for `transform: scale(1.1);` inside a class will scale up what ever in the class by 10% present. 
+*`transitionend` is a event you can use to listen to a end of a transition. 
 
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
+* backtics and template syntax are great way contact strings in javascript. 
+   `const key = document.querySelector(`div[data-key="${e.keyCode}"]`);`
 
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)
-
-
-### Day 1: June 27, Monday
-
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
-
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+* you can add add `EventListners` to html page by, 
+  `window.addEventListener('keydown', playSound);`
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+
