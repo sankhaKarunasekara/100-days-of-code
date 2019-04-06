@@ -11,7 +11,7 @@
 * `transform` in css used for `transform: scale(1.1);` inside a class will scale up what ever in the class by 10% present. 
 * `transitionend` is a event you can use to listen to a end of a transition. 
 
-* backtics and template syntax are great way contact strings in javascript. 
+* backtics and template syntax are great way contact strings in javascript.
    ``const key = document.querySelector(`div[data-key="${e.keyCode}"]`);``
 
 * you can add add `EventListners` to html page by, 
