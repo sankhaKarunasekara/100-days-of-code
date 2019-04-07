@@ -33,9 +33,13 @@
 
 * combining those two I created the widget that shows the internet speed.
 
-**Link(s) to work**
+**Useful links: **
 
 * [tailwind css](https://tailwindcss.com/docs/what-is-tailwind/)
 * [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
 * [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
+
+**Link(s) to work**
+
+* [Interent Speedometer](https://codepen.io/sankhax/pen/WWGwVV)
 
