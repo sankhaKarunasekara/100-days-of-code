@@ -1,0 +1,13 @@
+{
+    "key": "ctrl+shift+b",
+    "command": "HookyQR.beautify",
+    "when": "editorFocus",
+    
+    "css": {
+        "indent_size": 4
+    },
+    "html": {
+        "indent_size": 4,
+        "wrap_line_length": 80
+    }
+}

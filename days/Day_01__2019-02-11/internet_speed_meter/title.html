@@ -1,0 +1,24 @@
+<md-card-header-text>
+    <span class="md-title widget-title">{{definition.title}}</span>
+</md-card-header-text>
+
+<div class="md-card-toolbar-actions">
+
+    <md-menu ng-disabled="editMode">
+        <i style="float:right" class="md-icon material-icons" ng-click="$mdMenu.open()">&#xE5D4;</i>
+        <md-menu-content width="4" ng-mouseleave="$mdMenu.close()">
+            <md-menu-item>
+                <md-button title="{{ translate('ADF_WIDGET_TOOLTIP_EDIT') }}" ng-click="edit()">edit</md-button>
+            </md-menu-item>
+            <md-menu-item>
+                <md-button title="{{ translate('ADF_WIDGET_TOOLTIP_REMOVE') }}" ng-click="remove()">delete</md-button>
+            </md-menu-item>
+        </md-menu-content>
+    </md-menu>
+
+    <i class="md-icon material-icons" title="{{ translate('ADF_WIDGET_TOOLTIP_REFRESH') }}" ng-if="widget.reload"
+        ng-click="reload()" style="float:right">&#xE5D5;</i>
+
+    <i class="md-icon material-icons adf-move" style="float:right" title="{{ translate('ADF_WIDGET_TOOLTIP_MOVE') }}"
+        ng-if="editMode">&#xe89f;</i>
+</div>

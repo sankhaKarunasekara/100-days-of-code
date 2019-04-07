@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="./styles.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
+			rel="stylesheet"
+		/>
+		<script src="./script.js"></script>
+	</head>
+
+	<body>
+		<div class="min-h-screen items-center flex justify-center p-6">
+			<div
+				class="bg-white mx-auto max-w-sm shadow-lg rounded-lg overflow-hidden border-r"
+			>
+				<div class="block px-4 py-2 mb-6 leading-normal bg-grey-lighter flex flex-no-shrink">
+					<h3 class="pl-2 text-left m-auto align-middle text-grey-darkest w-full">Internet Speedometer</h3>
+					<button onClick="refreshSpeedOMeter();"
+						class="bg-grey-light float-right hover:bg-grey text-grey-darkest font-bold py-3 px-3 rounded-full inline-flex items-center"
+					>
+                    <svg class="fill-current w-6 h-6 flex-no-shrink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M14.66 15.66A8 8 0 1 1 17 10h-2a6 6 0 1 0-1.76 4.24l1.42 1.42zM12 10h8l-4 4-4-4z"/></svg>
+                    </button>
+				</div>
+
+				<div class="items-center flex justify-center p-4">
+					<div class="">
+						<div class="speedometr">
+							<div class="scale low"></div>
+							<div class="scale middle"></div>
+							<div class="scale hight"></div>
+							<div id="arrow" class="arrow"></div>
+						</div>
+                        
+                        <div
+							id="counter"
+							class="text-grey-darkest text-center text-base font-semibold pt-4 pb-0"
+                        >0.0 Mbps</div>
+                    </div>
+				</div>
+                <div class="px-6 pt-0 pb-4 text-center">
+                        <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="effectiveType">-</span>
+                        <span class="inline-block bg-grey-lighter rounded-full px-3 py-1 text-sm font-semibold text-grey-darker mr-2" id="rtt">rtt</span>
+                    </div>
+				<div
+					class="py-4 px-8 text-sm font-medium text-grey-darker bg-grey-lighter leading-normal"
+				>
+					<p>
+						Internet speed is calculated by
+						<b>Chrome Network Information API</b>. click
+						<a
+							href="https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API"
+							target="_black"
+							>here</a
+						>
+						to view the MDN docs. Note that this API is not supported by
+						Firefox.
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
