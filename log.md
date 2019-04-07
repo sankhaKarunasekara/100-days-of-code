@@ -20,3 +20,22 @@
 **Link(s) to work**
 
 * [JavaScript30 Drum Kit ](https://github.com/sankhaKarunasekara/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)
+
+### Day 2: April 07, Sunday
+ 
+**Today's Progress**: created internet speed widget using tailwind css and Network infomation API.
+
+**Thoughts:**
+
+* Tailwind css is a utility based css framework, it is great very easy to create components using that.
+
+* network infomation api is a way to get the interent speed from the browser only.
+
+* combining those two I created the widget that shows the internet speed.
+
+**Link(s) to work**
+
+* [tailwind css](https://tailwindcss.com/docs/what-is-tailwind/)
+* [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
+* [Network Information API](https://developer.mozilla.org/en-US/docs/Web/API/Network_Information_API)
+
