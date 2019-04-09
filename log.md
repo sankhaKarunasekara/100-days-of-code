@@ -45,3 +45,25 @@
 
 * [Interent Speedometer](https://codepen.io/sankhax/pen/WWGwVV)
 ---
+
+
+### Day 3: April 06, Monday
+ 
+**Today's Progress**: finished the second excise of wesbos's javascript30 course. crated a css javascript clock. 
+
+**Thoughts**:
+
+* I have been a front-end developer for a while now, but since today I haven't used 2D Transforms directly. It was
+a nice experiance to use them. 
+
+**Useful link(s)**:
+   [2D transforms](https://www.w3schools.com/css/css3_2dtransforms.asp)
+
+**Link(s) to work**:
+
+* [JSS + CSS Clock](https://codepen.io/sankhax/pen/vMyoPE)
+---
+
+
+
+https://frontendmasters.com/courses/javascript-foundations/
