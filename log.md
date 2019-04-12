@@ -90,3 +90,25 @@ of the [react slick carousel](http://kenwheeler.github.io/slick/) at the top of 
 * Encounter a problem in typescrpit where I can't send data out from a function. via it's parent scope. had to investigate the problem.
 ---
 
+
+### Day 6: April 11, Thusday
+ 
+**Today's Progress**: Picked up the [@css_battle](https://cssbattle.dev) completed the first three challenges.
+
+**Thoughts**:
+* centering a `div` vertically and horizontally is always a tricky deal. here is how I did it this time,
+
+`div{
+    margin:auto auto;
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background:#243D83;
+  	top: 0; left: 0; bottom: 0; right: 0;
+  } `
+
+**Useful link(s)**:
+   [CSS Battle](https://cssbattle.dev/play/3)
+
+---
+
