@@ -101,10 +101,7 @@ of the [react slick carousel](http://kenwheeler.github.io/slick/) at the top of 
 ```css
 div{
     margin:auto auto;
-    width: 300px;
-    height: 150px;
     position: absolute;
-    background:#243D83;
     top: 0; left: 0; bottom: 0; right: 0;
   } 
   ```
