@@ -98,14 +98,16 @@ of the [react slick carousel](http://kenwheeler.github.io/slick/) at the top of 
 **Thoughts**:
 * centering a `div` vertically and horizontally is always a tricky deal. here is how I did it this time,
 
-`div{
+```css
+div{
     margin:auto auto;
     width: 300px;
     height: 150px;
     position: absolute;
     background:#243D83;
   	top: 0; left: 0; bottom: 0; right: 0;
-  } `
+  } 
+  ```
 
 **Useful link(s)**:
    [CSS Battle](https://cssbattle.dev/play/3)
