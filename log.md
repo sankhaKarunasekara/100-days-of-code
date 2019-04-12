@@ -81,3 +81,12 @@ of the [react slick carousel](http://kenwheeler.github.io/slick/) at the top of 
 * [astronomers.lk](http://astronomers.lk)
 ---
 
+
+### Day 5: April 10, Wednesday
+ 
+**Today's Progress**: worked on @Ionicframework 4 project file upload functionality. struggled to get the size and content length of the file via typescript.
+
+**Thoughts**:
+* Encounter a problem in typescrpit where I can't send data out from a function. via it's parent scope. had to investigate the problem.
+---
+
