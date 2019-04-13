@@ -111,3 +111,17 @@ div{
 
 ---
 
+### Day 6: April 12, Friday
+ 
+**Today's Progress**: Pworked on my gatsby site http://sankha.lk  to move blog post into separate repository rather than keeping it on the same code base.
+
+**Thoughts**:
+* doing not so well on this, since I lack experience in gatsby and graphql hard to figure this out on my own, so I asked a stackoverflow
+question, still no response. :( 
+
+
+**Useful link(s)**:
+   [Stackoverflow question](https://stackoverflow.com/questions/55663260/how-to-retrieve-markdown-from-remote-git-repository-in-gatsby)
+
+---
+
