@@ -111,7 +111,7 @@ div{
 
 ---
 
-### Day 6: April 12, Friday
+### Day 7: April 12, Friday
  
 **Today's Progress**: Pworked on my gatsby site http://sankha.lk  to move blog post into separate repository rather than keeping it on the same code base.
 
@@ -123,5 +123,20 @@ question, still no response. :(
 **Useful link(s)**:
    [Stackoverflow question](https://stackoverflow.com/questions/55663260/how-to-retrieve-markdown-from-remote-git-repository-in-gatsby)
 
+---
+
+### Day 8: April 13, Saturday
+ 
+**Today's Progress**: I released another version of astronomers.lk website. :)  Finished the "Contributors" section and added the twitter meta tags. 
+
+**Thoughts**:
+*Added the Twitter meta tags, astronomers.lk need a form to get the users feedback. Alternatively, we need to integrate it with some chatting application. Facebook has a way to integrate messenger into a website need to check that out. 
+
+*need to read more about git version control workflows [this article](https://nvie.com/posts/a-successful-git-branching-model/) 
+could be a very good start. 
+
+**Link(s) to work**:
+
+* [astronomers.lk](http://astronomers.lk)
 ---
 
