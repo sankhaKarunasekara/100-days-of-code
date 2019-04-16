@@ -136,9 +136,41 @@ question, still no response. :(
 * need to read more about git version control workflows [this article](https://nvie.com/posts/a-successful-git-branching-model/) 
 could be a very good start. 
 
+**Useful link(s)**:
+   
+   [Stackoverflow question](https://stackoverflow.com/questions/55663260/how-to-retrieve-markdown-from-remote-git-repository-in-gatsby)
+
+---
+
+### Day 9: April 14, Sunday
+ 
+**Today's Progress**: Researched about what are the best APIs available for Natural Language Processing. google's dialogflow seems like a really nice interrogatable platform which uses all google's available tools. 
+
+**Thoughts**:
+
+* Dialogflow seems like nice way to get start.
+* IBM Wotson provide more detailed analasis.
+ 
+
 **Link(s) to work**:
 
-* [astronomers.lk](http://astronomers.lk)
+* [Link to trello board](https://trello.com/b/JQB1LHg1/asksankha)
+
+---
+
+
+### Day 10: April 15, Monday
+ 
+**Today's Progress**: Had my first experience with css variables, what are they called it these days, Custom properties?  The fact that you can scope them like a common css property is fantastic.
+
+**Thoughts**:
+
+* It nice way to access the css.
+* need to learn better use cases for this, feels like this isn't going to be very useful. 
+
+**Link(s) to work**:
+
+* [CSS Variables Excercise](https://codepen.io/sankhax/pen/Lveyex)
 
 ---
 
