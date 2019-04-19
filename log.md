@@ -176,21 +176,6 @@ could be a very good start.
 
 ### Day 11: April 16, Tuesday
  
-**Today's Progress**: Watched Adam Wathan designing netlify.com with his tailerwind css on a youtube live stream. 
-
-**Thoughts**:
-
-* Tailwind css is nice, if you are doing rapid prototyping.
-* If you want to make your html clean it's not that great solution, specially if you are working with lot of conditions statements in the dom like `ng-if` in angular.
-
-**Useful link(s)**:
-
-* [SVG OMG SVG Optimizer](https://jakearchibald.github.io/svgomg/)
-
----
-
-### Day 11: April 16, Tuesday
- 
 **Today's Progress**: Watched Adam Wathan' [Utility-First CSS with Tailwind CSS](https://youtu.be/BeZbMx9y1FE) where he explain all ins and outs of tailwind css. 
 
 **Thoughts**:
