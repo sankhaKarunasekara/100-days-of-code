@@ -174,3 +174,66 @@ could be a very good start.
 
 ---
 
+### Day 11: April 16, Tuesday
+ 
+**Today's Progress**: Watched Adam Wathan designing netlify.com with his tailerwind css on a youtube live stream. 
+
+**Thoughts**:
+
+* Tailwind css is nice, if you are doing rapid prototyping.
+* If you want to make your html clean it's not that great solution, specially if you are working with lot of conditions statements in the dom like `ng-if` in angular.
+
+**Useful link(s)**:
+
+* [SVG OMG SVG Optimizer](https://jakearchibald.github.io/svgomg/)
+
+---
+
+### Day 11: April 16, Tuesday
+ 
+**Today's Progress**: Watched Adam Wathan' [Utility-First CSS with Tailwind CSS](https://youtu.be/BeZbMx9y1FE) where he explain all ins and outs of tailwind css. 
+
+**Thoughts**:
+
+* ability to componatize css with `@apply` is great.
+* Tailwind css is nice, if you are doing rapid prototyping.
+* cssstats is a great simple tool you can use to profile your css. 
+
+**Useful link(s)**:
+
+* [CSS Stats](https://cssstats.com/)
+
+---
+
+### Day 12: April 17, Wednesday
+ 
+**Today's Progress**: Watched Adam Wathan designing [netlify.com](netlify.com) and building [Refactoring UI](https://refactoringui.com/) with his tailerwind css on a youtube live stream. 
+
+**Thoughts**:
+
+* If you want to make your html clean it's not that great solution, specially if you are working with lot of conditions statements in the dom like `ng-if` in angular.
+* I should polish my knowledge of css flex box.
+
+**Useful link(s)**:
+
+* [Rebuilding Netlify](https://youtu.be/_JhTaENzfZQ)
+* [SVG OMG SVG Optimizer](https://jakearchibald.github.io/svgomg/)
+
+### Day 13: April 18, Thusday
+ 
+**Today's Progress**: Ionicframework is a great platform until your application stop building because of some weird cordova bug.  
+
+**Thoughts**:
+* never use ionic repair command when you are encounter a bug. It takes for ever to complete. 
+* Encouter some crazy cordova bugs.  
+
+```bash
+ionic cordova platform rm android
+ionic cordova platform add android
+ionic cordova prepare android
+ionic cordova run android
+```
+
+**Useful link(s)**:
+
+* [Ionic Cordova](https://ionicframework.com/docs/cli/commands/cordova-run)
