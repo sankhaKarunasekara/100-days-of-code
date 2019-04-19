@@ -222,3 +222,16 @@ ionic cordova run android
 **Useful link(s)**:
 
 * [Ionic Cordova](https://ionicframework.com/docs/cli/commands/cordova-run)
+
+
+### Day 14: April 19, Thusday
+ 
+**Today's Progress**: Learned about how to use @gatsbyjs as a PWA( Progressive web app builder). had a problem with site cache not reloading after a new website build. problem solved with giving an option to reload the website when there is a new service worker update.
+
+**Thoughts**:
+* I don't like asking user for refresh the page, or click on a alart to update the service worker so that we can refresh the page.
+* It's not tested it, if you want to make a gatsby site in to PWA you can use `gatsby-plugin-offline` to do it. 
+
+**Useful link(s)**:
+
+* [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline)
