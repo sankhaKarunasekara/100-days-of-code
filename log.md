@@ -235,3 +235,46 @@ ionic cordova run android
 **Useful link(s)**:
 
 * [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline)
+
+
+### Day 15: April 20, Thursday
+ 
+**Today's Progress**: Gatsby PWA with service worker `gatsby-plugin-offline` still have sevior issues. The service workers did not refresh after using 
+
+```javascript
+export const onServiceWorkerUpdateReady = () => {
+  const answer = window.confirm(
+    `This application has been updated. ` +
+      `Reload to display the latest version?`
+  )
+
+  if (answer === true) {
+    window.location.reload()
+  }
+}
+```
+
+. This did not work. I had to replace the `onServiceWOrkerUpadteReady` with `onServiceWorkerUpdateFound `.
+
+```exports.onServiceWorkerUpdateFound = () => {
+     const answer = window.confirm(
+    ``This application has been updated. `` +
+      ``Reload to display the latest version?``
+  )
+
+  if (answer === true) {
+    window.location.reload()
+  }
+};
+```
+
+**Thoughts**:
+
+* This led me to a very interesting and annoying problem, `window.confrim` works in the `gatsby build` environment but not after deployment. That course a serious issue where user cannot click on anything on the screen because I suspect that `window.confirm` is on top of everything, but It is not showing. 
+
+* finally decided to remove the `gatsby-plugin-offline` and clear the service workers by using, `gatsby-plugin-remove-serviceworker`. It solves the issue still I am not totally sure it will clear out all the service workers in my user's devices.
+
+**Useful link(s)**:
+
+* [how to know whether service worker is updated or not](https://stackoverflow.com/questions/48171517/how-to-know-if-service-worker-was-updated-in-gatsby-plugin-offline)
+
