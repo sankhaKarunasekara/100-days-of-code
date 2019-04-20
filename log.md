@@ -256,7 +256,8 @@ export const onServiceWorkerUpdateReady = () => {
 
 . This did not work. I had to replace the `onServiceWOrkerUpadteReady` with `onServiceWorkerUpdateFound `.
 
-```exports.onServiceWorkerUpdateFound = () => {
+```javascript
+exports.onServiceWorkerUpdateFound = () => {
      const answer = window.confirm(
     `This application has been updated. ` +
       `Reload to display the latest version?`
