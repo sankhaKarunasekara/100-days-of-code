@@ -204,7 +204,7 @@ could be a very good start.
 * [Rebuilding Netlify](https://youtu.be/_JhTaENzfZQ)
 * [SVG OMG SVG Optimizer](https://jakearchibald.github.io/svgomg/)
 
-### Day 13: April 18, Thusday
+### Day 13: April 18, Thursday
  
 **Today's Progress**: Ionicframework is a great platform until your application stop building because of some weird cordova bug.  
 
@@ -224,7 +224,7 @@ ionic cordova run android
 * [Ionic Cordova](https://ionicframework.com/docs/cli/commands/cordova-run)
 
 
-### Day 14: April 19, Thusday
+### Day 14: April 19, Friday
  
 **Today's Progress**: Learned about how to use @gatsbyjs as a PWA( Progressive web app builder). had a problem with site cache not reloading after a new website build. problem solved with giving an option to reload the website when there is a new service worker update.
 
@@ -237,7 +237,7 @@ ionic cordova run android
 * [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline)
 
 
-### Day 15: April 20, Thursday
+### Day 15: April 20, Saturday
  
 **Today's Progress**: Gatsby PWA with service worker `gatsby-plugin-offline` still have sevior issues. The service workers did not refresh after using 
 
