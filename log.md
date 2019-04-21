@@ -279,3 +279,15 @@ exports.onServiceWorkerUpdateFound = () => {
 
 * [how to know whether service worker is updated or not](https://stackoverflow.com/questions/48171517/how-to-know-if-service-worker-was-updated-in-gatsby-plugin-offline)
 
+### Day 16: April 21, Sunday
+ 
+**Today's Progress**: Synced my `vscode` setting to github gist using (Settings Sync)[https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync]. now I can use those setting any machine I want.
+
+**Thoughts**:
+
+* Nice and easy very user friendly plugin.
+
+**Useful link(s)**:
+
+* [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
+* [My VSCode Settings](https://gist.github.com/sankhaKarunasekara/f2e14c4bfeb1822b3b0e4a6a93b42b6e)
