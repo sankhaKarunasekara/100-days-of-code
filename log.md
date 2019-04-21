@@ -281,7 +281,8 @@ exports.onServiceWorkerUpdateFound = () => {
 
 ### Day 16: April 21, Sunday
  
-**Today's Progress**: Synced my `vscode` setting to github gist using (Settings Sync)[https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync]. now I can use those setting any machine I want.
+**Today's Progress**: Synced my `vscode` setting to github gist using 
+[Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync). now I can use those setting any machine I want.
 
 **Thoughts**:
 
