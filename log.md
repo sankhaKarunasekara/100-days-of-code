@@ -329,4 +329,4 @@ is equal to:
 
 **Link(s) to work**:
 
-* [Day 17 array cardio](fill this)
+* [Day 17 array cardio](https://github.com/sankhaKarunasekara/100-days-of-code/tree/master/days/Day_17__2019-04-28)
