@@ -1,7 +1,7 @@
 # 100 Days Of Code - Log
 
 ### Day 1: April 06, Saturday
- 
+
 **Today's Progress**: as kick start picked up Wes Bos's javascript30 course.
 
 **Thoughts:**
@@ -175,7 +175,7 @@ could be a very good start.
 ---
 
 ### Day 11: April 16, Tuesday
- 
+
 **Today's Progress**: Watched Adam Wathan' [Utility-First CSS with Tailwind CSS](https://youtu.be/BeZbMx9y1FE) where he explain all ins and outs of tailwind css. 
 
 **Thoughts**:
@@ -191,8 +191,8 @@ could be a very good start.
 ---
 
 ### Day 12: April 17, Wednesday
- 
-**Today's Progress**: Watched Adam Wathan designing [netlify.com](netlify.com) and building [Refactoring UI](https://refactoringui.com/) with his tailerwind css on a youtube live stream. 
+
+**Today's Progress**: Watched Adam Wathan designing [netlify.com](netlify.com) and building [Refactoring UI](https://refactoringui.com/) with his tailerwind css on a youtube live stream.
 
 **Thoughts**:
 
@@ -203,6 +203,7 @@ could be a very good start.
 
 * [Rebuilding Netlify](https://youtu.be/_JhTaENzfZQ)
 * [SVG OMG SVG Optimizer](https://jakearchibald.github.io/svgomg/)
+---
 
 ### Day 13: April 18, Thursday
  
@@ -222,20 +223,23 @@ ionic cordova run android
 **Useful link(s)**:
 
 * [Ionic Cordova](https://ionicframework.com/docs/cli/commands/cordova-run)
-
+---
 
 ### Day 14: April 19, Friday
- 
+
 **Today's Progress**: Learned about how to use @gatsbyjs as a PWA( Progressive web app builder). had a problem with site cache not reloading after a new website build. problem solved with giving an option to reload the website when there is a new service worker update.
 
 **Thoughts**:
+
 * I don't like asking user for refresh the page, or click on a alart to update the service worker so that we can refresh the page.
-* It's not tested it, if you want to make a gatsby site in to PWA you can use `gatsby-plugin-offline` to do it. 
+
+* It's not tested it, if you want to make a gatsby site in to PWA you can use `gatsby-plugin-offline` to do it.
 
 **Useful link(s)**:
 
 * [gatsby-plugin-offline](https://www.gatsbyjs.org/packages/gatsby-plugin-offline/?=gatsby-plugin-offline)
 
+---
 
 ### Day 15: April 20, Saturday
  
@@ -254,7 +258,7 @@ export const onServiceWorkerUpdateReady = () => {
 }
 ```
 
-. This did not work. I had to replace the `onServiceWOrkerUpadteReady` with `onServiceWorkerUpdateFound `.
+. This did not work. I had to replace the `onServiceWOrkerUpadteReady` with `onServiceWorkerUpdateFound`.
 
 ```javascript
 exports.onServiceWorkerUpdateFound = () => {
@@ -279,9 +283,11 @@ exports.onServiceWorkerUpdateFound = () => {
 
 * [how to know whether service worker is updated or not](https://stackoverflow.com/questions/48171517/how-to-know-if-service-worker-was-updated-in-gatsby-plugin-offline)
 
+---
+
 ### Day 16: April 21, Sunday
- 
-**Today's Progress**: Synced my `vscode` setting to github gist using 
+
+**Today's Progress**: Synced my `vscode` setting to github gist using
 [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync). now I can use those setting any machine I want.
 
 **Thoughts**:
@@ -293,10 +299,11 @@ exports.onServiceWorkerUpdateFound = () => {
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 * [My VSCode Settings](https://gist.github.com/sankhaKarunasekara/f2e14c4bfeb1822b3b0e4a6a93b42b6e)
 
+---
 
 ### Day 17: April 28, Sunday
- 
-**Today's Progress**: Array Cardio with @wesbos. cool little wrap-up of map, filter, reduce, sort.
+
+ **Today's Progress**: Array Cardio with @wesbos. cool little wrap-up of map, filter, reduce, sort.
 
 **Thoughts**:
 
