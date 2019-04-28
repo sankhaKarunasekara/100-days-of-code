@@ -292,3 +292,41 @@ exports.onServiceWorkerUpdateFound = () => {
 
 * [Settings Sync](https://marketplace.visualstudio.com/items?itemName=Shan.code-settings-sync)
 * [My VSCode Settings](https://gist.github.com/sankhaKarunasekara/f2e14c4bfeb1822b3b0e4a6a93b42b6e)
+
+
+### Day 17: April 28, Sunday
+ 
+**Today's Progress**: Array Cardio with @wesbos. cool little wrap-up of map, filter, reduce, sort.
+
+**Thoughts**:
+
+* sort method is still bit confusing.
+* with the arrow functions you return what ever after the =>, if you use curly braces 
+you need to explicitly return the object you want to return.
+
+```javascript
+   return (
+      state.map((one) =>
+         oneTodo( one, action)
+      )
+   );
+```
+
+is equal to:
+
+```javascript
+    case 'toggleTodo' :
+      return (
+         state.map((one) => {
+            return oneTodo( one, action )
+         })
+      );
+```
+
+**Useful link(s)**:
+
+* [curly brackets in arrow functions](https://stackoverflow.com/questions/35440265/curly-brackets-in-arrow-functions/35440297#35440297)
+
+**Link(s) to work**:
+
+* [Day 17 array cardio](fill this)
