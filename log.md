@@ -337,3 +337,28 @@ is equal to:
 **Link(s) to work**:
 
 * [Day 17 array cardio](https://github.com/sankhaKarunasekara/100-days-of-code/tree/master/days/Day_17__2019-04-28)
+
+---
+
+### Day 18: May 01, WednesDay 
+
+ **Today's Progress**: Write a simple script to delete all pending facebook requests.
+
+**Thoughts**:
+* you can't do this on web version, facebook blocks. javascript clicks.
+
+```javascript
+/*
+1) go to: https://m.facebook.com/friends/center/requests/outgoing/#friends_center_main
+2) scroll down: load all the pending requests
+2) open: Developer Tools (shotcut: Ctrl+Shift+i) 
+3) type : below 2 line in the console 
+4) press: Enter
+*/
+
+var buttons = document.getElementsByClassName('_54k8 _52jg _56bs _26vk _2b4n _56bt');
+[...buttons].slice(0,100).forEach(item=>item.click());
+
+// Note: if you got more than 100 you have to run this few times while changing the slices
+
+```
