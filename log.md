@@ -362,3 +362,17 @@ var buttons = document.getElementsByClassName('_54k8 _52jg _56bs _26vk _2b4n _56
 // Note: if you got more than 100 you have to run this few times while changing the slices
 
 ```
+
+### Day 19: May 11, Saturday
+
+ **Today's Progress**: Add banner at the top of astronomers.lk website. update the All Sri Lanka asteroids search Campaign Page.  
+
+**Thoughts**:
+
+* need to add [disqus comments](https://disqus.com/) to astronomers.lk.
+
+**Link(s) to work**:
+
+* [Day 19 astronomers.lk](https://www.astronomers.lk/ASASC2019)
+
+---
