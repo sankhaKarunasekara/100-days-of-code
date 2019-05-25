@@ -376,3 +376,15 @@ var buttons = document.getElementsByClassName('_54k8 _52jg _56bs _26vk _2b4n _56
 * [Day 19 astronomers.lk](https://www.astronomers.lk/ASASC2019)
 
 ---
+
+### Day 20: May 12, Sunday
+
+ **Today's Progress**: add comment section to astronomers.lk website.
+
+**Thoughts**:
+if you are looking for a quick way to add comments to your website,  @disqus is very slick and easy solution. Add disqus comments plugin to http://astronomers.lk  website.
+
+**Link(s) to work**:
+* [Day 20 astronomers.lk](https://www.astronomers.lk/ASASC2019)
+
+---
